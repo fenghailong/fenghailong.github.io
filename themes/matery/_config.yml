@@ -89,17 +89,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/godweiyang
+  url: https://github.com/fenghailong
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 792321264
-  github: godweiyang
-  weibo: godweiyang
-  email: i@godweiyang.com
-  zhihu: godweiyang
+  qq: 120308593
+  github: fenghailong
+  weibo: fenghailong
+  email: 120308593@qq.com
+  zhihu: fenghailong
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -119,8 +119,8 @@ code:
 reward:
   enable: true
   title: 写作不易，客官能否打赏一杯奶茶？
-  wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  wechat: /medias/reward/wechat.jpeg
+  alipay: /medias/reward/alipay.jpeg
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -164,9 +164,9 @@ text:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatars/avatar.jpg
-  career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！
+  avatar: /medias/avatars/avatar.jpeg
+  career: 电子科技大学 | 计算机科学与技术 | 前端菜🐔
+  introduction: 我是一个彩笔。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -286,7 +286,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/godweiyang
+  url: https://github.com/fenghailong
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
