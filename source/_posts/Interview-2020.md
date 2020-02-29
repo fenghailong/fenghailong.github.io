@@ -78,6 +78,35 @@ __问__：既然CSS class和ID命名的语义化可以便于阅读理解和减�
 
 #### 2.新标签新特性
 
+- __新特性__
+
+1. 语意特性,添加 ``` <header><header/><nav><nav> ```等标签
+2. 多媒体， 用于媒介回放的 video 和 audio 元素
+3. 图像效果，用于绘画的 canvas 元素，svg元素等
+4. 离线 & 存储,对本地离线存储的更好的支持,local Store,Cookies等
+5. 设备兼容特性 ，HTML5提供了前所未有的数据与应用接入开放接口。使外部应用可以直接与浏览器内部的数据直接相连，
+6. 连接特性，更有效的连接工作效率，使得基于页面的实时聊天，更快速的网页游戏体验，更优化的在线交流得到了实现。HTML5拥有更有效的服务器推送技术，Server-Sent Event和WebSockets就是其中的两个特性。
+7. 性能与集成特性，HTML5会通过XMLHttpRequest2等技术，帮助您的Web应用和网站在多样化的环境中更快速的工作
+
+- __新标签__
+
+1. 多媒体：```<audio></audio>, <video><video>,<source></source>, <embed></embed>, <track></track>```
+2. 新表单元素：```<datalist> ,<output> , <keygen>```
+3. 新文档节段和纲要: ``` <header>页面头部、<section>章节、<aside>边栏、<article>文档内容、<footer>页面底部、<section>章节、<aside>边栏、<article>文档内容、<footer>页面底部等```
+
+__注：__ 使用html5shiv可以解决ie低版本不兼容的问题，只需要在head中加上,当版本低于IE9时，浏览器会加载html5.js脚本，使得支持html5的新功能，也可以将脚本文件下载到本地。
+
+```html
+<head>
+  <!--[if lt IE 9]>
+  <script src='http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js'>
+  </script>
+  <![endif]-->
+</head>
+```
+
+# <center>（待更新）</center>
+
 #### 3.input和textarea的区别
 
 #### 4.用一个div模拟textarea的实现
